@@ -1,0 +1,12 @@
+{
+  "continue.telemetryEnabled": false,
+  "continue.enableTabAutocomplete": true,
+  "continue.manuallyTriggerCompletion": false,
+  "files.associations": {
+    "*.md": "markdown"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.wordBasedSuggestions": "off",
+  "localaipilot.standalone.ollamaModel": "codellama:7b"
+}
