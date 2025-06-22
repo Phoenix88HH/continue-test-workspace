@@ -8,5 +8,5 @@
   "editor.inlineSuggest.enabled": true,
   "editor.suggestOnTriggerCharacters": true,
   "editor.wordBasedSuggestions": "off",
-  "localaipilot.standalone.ollamaModel": "codellama:7b"
+  "localaipilot.standalone.ollamaModel": "qwen2.5-coder:1.5b"
 }
