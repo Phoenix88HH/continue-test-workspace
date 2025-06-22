@@ -118,8 +118,8 @@
         "*.obj",
         "*.lib",
         "*.a",
-        "*.map",
-        ".npmrc"
+        "*.map"
+        // ".npmrc" removed to avoid conflict with included_patterns
     ],
     "default": {
         "default_prompt": "Enter your prompt here",

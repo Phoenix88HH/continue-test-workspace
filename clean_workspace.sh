@@ -4,7 +4,7 @@
 set -e
 
 # Show RAM and swap usage before cleaning
-free -h
+free -m
 
 # Clean workspace snapshots and caches in parallel
 (
@@ -26,13 +26,16 @@ else
 fi
 
 # Show RAM and swap usage after cleaning
-free -h | tee /tmp/ram_report.txt
+RAM_REPORT_FILE=$(mktemp /tmp/ram_report.XXXXXX)
+free -m | tee "$RAM_REPORT_FILE"
+free -h | tee "$RAM_REPORT_FILE"
 
 # Festival celebration if installed
 if command -v festival &>/dev/null; then
-  RAM_SUMMARY=$(grep Mem: /tmp/ram_report.txt | awk '{print "Total RAM: "$2"MB, Used: "$3"MB, Free: "$4"MB"}')
+  RAM_SUMMARY=$(grep Mem: "$RAM_REPORT_FILE" | awk '{print "Total RAM: "$2"MB, Used: "$3"MB, Free: "$4"MB"}')
   echo "$RAM_SUMMARY" | festival --tts
   echo "Cleanup complete! Your system is now faster!" | festival --tts
 fi
 
+rm -f "$RAM_REPORT_FILE"
 echo "Clean up complete!"

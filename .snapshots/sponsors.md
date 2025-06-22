@@ -1,5 +1,8 @@
 # Thank you for using Snapshots for AI
 
+We appreciate your support and hope this tool has been helpful in your projects. Your feedback and contributions are invaluable to us. Together, we can continue to improve and innovate in the world of open source software.
+
+
 Thanks for using Snapshots for AI. We hope this tool has helped you solve a problem or two. 
 
 If you would like to support our work, please help us by considering the following offers and requests:
@@ -7,7 +10,7 @@ If you would like to support our work, please help us by considering the followi
 ## Ways to Support
 
 ### Join the GBTI Network!!! 🙏🙏🙏
-The GBTI Network is a community of developers who are passionate about open source and community-driven development. Members enjoy access to exclussive tools, resources, a private MineCraft server, a listing in our members directory, co-op opportunities and more.
+The GBTI Network is a community of developers who are passionate about open source and community-driven development. Members enjoy access to exclusive tools, resources, a private MineCraft server, a listing in our members directory, co-op opportunities and more.
 
 - Support our work by becoming a [GBTI Network member](https://gbti.network/membership/).
 
